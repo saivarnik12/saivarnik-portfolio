@@ -1,14 +1,14 @@
-import './globals.css';
+import './globals.css'
 
 export const metadata = {
   title: 'Sai Varnik Kammari | Software Engineer',
-  description: 'Backend & Fintech-focused Software Engineer'
-};
+  description: 'Backend & Fintech Software Engineer'
+}
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-slate-950 text-slate-200">{children}</body>
+      <body>{children}</body>
     </html>
-  );
+  )
 }
